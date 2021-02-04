@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UserTests" verbose="2" >
+    <test name="UserTests" >
+        <classes>
+            <class name="com.ilcarro.qa.test.CreateAccountTest" >
+                <methods>
+                    <exclude name="testSignUp.*" />
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>
