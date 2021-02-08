@@ -83,7 +83,7 @@ public class CreateAccountTest extends TestBase {
         Assert.assertTrue(app.getUser().isLoginFormPresent());
     }
 
-    @Test (dataProvider = "validUserFromCSV" , dataProviderClass =  DataProviders.class)
+    @Test (enabled = false, dataProvider = "validUserFromCSV" , dataProviderClass =  DataProviders.class)
     public void testSignUpFromCSVFromDateProvider(User user) {
 
         app.getHeader().openRegistrationFormFromHeader();
@@ -104,7 +104,7 @@ public class CreateAccountTest extends TestBase {
     }
 
 
-    @Test
+    @Test(enabled = false)
     public void testSignUpWithoutPassword() {
         //click on SignUp Button
         app.getHeader().openRegistrationFormFromHeader();

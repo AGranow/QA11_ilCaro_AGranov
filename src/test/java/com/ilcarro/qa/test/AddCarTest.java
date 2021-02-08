@@ -41,7 +41,7 @@ public class AddCarTest extends TestBase {
         }
     }
 
-    @Test(dataProvider = "validCarFromCSV", dataProviderClass = DataProviders.class)
+    @Test(enabled = false ,dataProvider = "validCarFromCSV", dataProviderClass = DataProviders.class)
     public void testFormLetTheCarWorkLoggedInUserFromDataProvider(Car car) throws InterruptedException {
 
         if (!app.getUser().userLoggedIn()) {
@@ -53,9 +53,10 @@ public class AddCarTest extends TestBase {
 
             app.getHeader().submitForm();
         }
+
     }
 
-    @Test
+    @Test(enabled = false)
     public void negativeTestAddCarWithoutDoors() throws InterruptedException {
         if (!app.getUser().userLoggedIn()) {
             app.getUser().logIn();
