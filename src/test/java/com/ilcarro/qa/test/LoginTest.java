@@ -11,8 +11,6 @@ public class LoginTest extends TestBase {
     //precondition: user should be logged out
     @BeforeMethod
     public void ensurePrecondition() {
-
-
         //goto login page
           if (!app.getUser().isLoginFormPresent()) {  //   sign up on not present
             // click on logout form
@@ -37,6 +35,19 @@ public class LoginTest extends TestBase {
         System.out.println(email);
         Assert.assertEquals(email,"MaxSmitt7@gmail.com");
     }
+
+     @Test
+    public void loginRegisteredUserPositivTestProbe() {
+
+        app.getUser().logIn();
+        //submit login
+        Assert.assertTrue(app.getUser().userLoggedIn());
+//        String email = app.getHeader().getEmailTextFromHeader();
+//        System.out.println(email);
+//        Assert.assertEquals(email,"MaxSmitt7@gmail.com");
+    }
+
+
 }
 
 

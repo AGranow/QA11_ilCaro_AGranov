@@ -1,9 +1,10 @@
 package com.ilcarro.qa.fw;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.NoSuchElementException;
 
 public class HelperBase {
@@ -57,4 +58,19 @@ try {
     public void jumpToFutter(){
         wd.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL,Keys.END);
     }
+
+// Метод создающий скриншот
+    public String takeScreenshot()  {
+      File tmp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+      File screenshot = new File("screenshot"  + System.currentTimeMillis() + ".png");
+
+        try {
+            Files.copy(tmp, screenshot);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return screenshot.getAbsolutePath();
+    }
+
+
 }

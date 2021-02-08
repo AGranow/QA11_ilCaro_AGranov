@@ -17,32 +17,7 @@ import java.util.logging.Logger;
 
 public class CreateAccountTest extends TestBase {
 
-    @DataProvider
-    public Iterator<Object[]> validUser(){
-        List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"fName1","sName1","fName22@gmail.com","firstName1"});
-        list.add(new Object[]{"fName2","sName2","fName23@gmail.com","firstName2"});
-        list.add(new Object[]{"fName3","sName3","fName24@gmail.com","firstName3"});
 
-        return list.iterator();
-    }
-
-    @DataProvider
-    public Iterator<Object[]> validUserFromCSV() throws IOException {
-        List<Object[]> list = new ArrayList<>();
-
-        BufferedReader reader = new BufferedReader
-                (new FileReader("src/test/resources/tests_newUser.csv"));
-        String line = reader.readLine();
-        while (line != null){
-            String[] split =line.split(",");
-            list.add(new Object[]{
-                    new User().withFirstName(split[0]).withSecondName(split[1]).withEmail(split[2]).withPassword(split[3])});
-            line = reader.readLine();
-        }
-
-        return list.iterator();
-    }
 
     //precondition: user should be logged out
     @BeforeMethod
@@ -80,7 +55,7 @@ public class CreateAccountTest extends TestBase {
         Assert.assertTrue(app.getUser().isLoginFormPresent());
     }
 
-    @Test (dataProvider = "validUser")
+    @Test (dataProvider = "validUser",dataProviderClass =  DataProviders.class)
     public void testSignUpFromDateProvider(String fName, String sName, String email, String password) {
 
         //click on SignUp Button
@@ -108,7 +83,7 @@ public class CreateAccountTest extends TestBase {
         Assert.assertTrue(app.getUser().isLoginFormPresent());
     }
 
-    @Test (dataProvider = "validUserFromCSV")
+    @Test (dataProvider = "validUserFromCSV" , dataProviderClass =  DataProviders.class)
     public void testSignUpFromCSVFromDateProvider(User user) {
 
         app.getHeader().openRegistrationFormFromHeader();

@@ -85,7 +85,7 @@ public class Car {
         return this;
     }
 
-    public Car  withHorsepower(String horsepower) {
+    public Car withHorsePower(String horsepower) {
         this.horsepower = horsepower;
         return this;
     }
@@ -205,5 +205,16 @@ public class Car {
 
     public String getPrice() {
         return price;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "serialNumber='" + serialNumber + '\'' +
+                ", brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year='" + year + '\'' +
+                ", price='" + price + '\'' +
+                '}';
     }
 }
