@@ -16,9 +16,9 @@ public class DataProviders {
     @DataProvider
     public Iterator<Object[]> validUser(){
         List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"fName1","sName1","fName22@gmail.com","firstName1"});
-        list.add(new Object[]{"fName2","sName2","fName23@gmail.com","firstName2"});
-        list.add(new Object[]{"fName3","sName3","fName24@gmail.com","firstName3"});
+        list.add(new Object[]{"fName1","sName1","fName25@gmail.com","firstName1"});
+        list.add(new Object[]{"fName2","sName2","fName26@gmail.com","firstName2"});
+        list.add(new Object[]{"fName3","sName3","fName27@gmail.com","firstName3"});
 
         return list.iterator();
     }
