@@ -16,9 +16,9 @@ public class DataProviders {
     @DataProvider
     public Iterator<Object[]> validUser(){
         List<Object[]> list = new ArrayList<>();
-        list.add(new Object[]{"fName1","sName1","fName25@gmail.com","firstName1"});
-        list.add(new Object[]{"fName2","sName2","fName26@gmail.com","firstName2"});
-        list.add(new Object[]{"fName3","sName3","fName27@gmail.com","firstName3"});
+        list.add(new Object[]{"fName1","sName1","fName28@gmail.com","firstName1"});
+        list.add(new Object[]{"fName2","sName2","fName29@gmail.com","firstName2"});
+        list.add(new Object[]{"fName3","sName3","fName30@gmail.com","firstName3"});
 
         return list.iterator();
     }
@@ -75,7 +75,6 @@ public class DataProviders {
 
             line = reader.readLine();
         }
-
         return list.iterator();
     }
 }
