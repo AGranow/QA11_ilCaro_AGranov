@@ -40,7 +40,7 @@ public class CreateAccountTest extends TestBase {
         app.getUser().fillRegistrationForm(new User()
                 .withFirstName("Max")
                 .withSecondName( "Smitt")
-                .withEmail( "MaxSmitt25@gmail.com")
+                .withEmail( "MaxSmitt26@gmail.com")
                 .withPassword("MaxSmitt1"));
 
 

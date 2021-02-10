@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ilcarro.qa.test.LoginTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-02-10T09:33:54" hostname="LAPTOPAVRAHAM" time="7.901">
+  <properties/>
+  <testcase name="loginRegisteredUserPositivTest" classname="com.ilcarro.qa.test.LoginTest" time="3.757"/>
+  <testcase name="loginRegisteredUserPositivTestProbe" classname="com.ilcarro.qa.test.LoginTest" time="0.98"/>
+  <system-out><![CDATA[10:33:48 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start test loginRegisteredUserPositivTestwitch data:  []
+10:33:48 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .Login_login__right_block__1niYm
+10:33:51 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .Login_login__right_block__1niYmfound.
+10:33:51 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.xpath: //a[contains(.,'logOut')]
+10:33:54 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.xpath: //a[contains(.,'logOut')]found.
+10:33:54 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [href='/login']
+10:33:54 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [href='/login']found.
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: email
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: emailfound.
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: email
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: emailfound.
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: email
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: emailfound.
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: password
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: passwordfound.
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: password
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: passwordfound.
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: password
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: passwordfound.
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [type='submit']
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [type='submit']found.
+10:33:57 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.xpath: //a[contains(.,'logOut')]
+10:33:58 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.xpath: //a[contains(.,'logOut')]found.
+10:33:58 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [href='/account']
+10:33:58 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [href='/account']found.
+MaxSmitt7@gmail.com
+10:33:58 [Test worker] INFO  com.ilcarro.qa.test.TestBase - PASSED : test method loginRegisteredUserPositivTest
+10:33:58 [Test worker] INFO  com.ilcarro.qa.test.TestBase - =======================================================================
+10:33:58 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start test loginRegisteredUserPositivTestProbewitch data:  []
+10:33:58 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .Login_login__right_block__1niYm
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .Login_login__right_block__1niYmfound.
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.xpath: //a[contains(.,'logOut')]
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.xpath: //a[contains(.,'logOut')]found.
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.xpath: //a[contains(.,'logOut')]
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.xpath: //a[contains(.,'logOut')]found.
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [href='/login']
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [href='/login']found.
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [href='/login']
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [href='/login']found.
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: email
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: emailfound.
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: email
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: emailfound.
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: email
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: emailfound.
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: password
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: passwordfound.
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: password
+10:34:01 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: passwordfound.
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: password
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: passwordfound.
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [type='submit']
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [type='submit']found.
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.xpath: //a[contains(.,'logOut')]
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.xpath: //a[contains(.,'logOut')]found.
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - PASSED : test method loginRegisteredUserPositivTestProbe
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - =======================================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

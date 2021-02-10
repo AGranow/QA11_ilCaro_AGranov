@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ilcarro.qa.test.OpenHomePageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-10T09:34:02" hostname="LAPTOPAVRAHAM" time="0.107">
+  <properties/>
+  <testcase name="homePagTest" classname="com.ilcarro.qa.test.OpenHomePageTest" time="0.107"/>
+  <system-out><![CDATA[10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start test homePagTestwitch data:  []
+site open
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .Main_mainpage__find_your_car__AHLkw form
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .Main_mainpage__find_your_car__AHLkw formfound.
+FindCarPresenttrue
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .Main_mainpage__find_your_car__AHLkw form
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .Main_mainpage__find_your_car__AHLkw formfound.
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: body
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: bodyfound.
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - PASSED : test method homePagTest
+10:34:02 [Test worker] INFO  com.ilcarro.qa.test.TestBase - =======================================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

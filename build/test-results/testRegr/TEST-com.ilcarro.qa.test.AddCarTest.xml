@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ilcarro.qa.test.AddCarTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-02-10T09:33:04" hostname="LAPTOPAVRAHAM" time="13.54">
+  <properties/>
+  <testcase name="negativeTestFromLetTheCarWorkForNotLoggedInUser" classname="com.ilcarro.qa.test.AddCarTest" time="4.113"/>
+  <testcase name="testFormLetTheCarWorkLoggedInUser" classname="com.ilcarro.qa.test.AddCarTest" time="9.419"/>
+  <system-out><![CDATA[10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start test negativeTestFromLetTheCarWorkForNotLoggedInUserwitch data:  []
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [href='/car']
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [href='/car']found.
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: country
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: countryfound.
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: country
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: countryfound.
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: country
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: countryfound.
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .address
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .addressfound.
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .address
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .addressfound.
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .address
+10:33:04 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .addressfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .distance_included
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .distance_includedfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .distance_included
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .distance_includedfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .distance_included
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .distance_includedfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .serial_number
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .serial_numberfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .serial_number
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .serial_numberfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .serial_number
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .serial_numberfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .brand
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .brandfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .brand
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .brandfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .brand
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .brandfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .model
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .modelfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .model
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .modelfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .model
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .modelfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .year
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .yearfound.
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .year
+10:33:05 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .yearfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .year
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .yearfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .engine
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .enginefound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .engine
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .enginefound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .engine
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .enginefound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel_consumption
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuel_consumptionfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel_consumption
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuel_consumptionfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel_consumption
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuel_consumptionfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuelfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuelfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuelfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .transmition
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .transmitionfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .transmition
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .transmitionfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .transmition
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .transmitionfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .wd
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .wdfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .wd
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .wdfound.
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .wd
+10:33:06 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .wdfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .horsepower
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .horsepowerfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .horsepower
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .horsepowerfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .horsepower
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .horsepowerfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .torque
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .torquefound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .torque
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .torquefound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .torque
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .torquefound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .doors
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .doorsfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .doors
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .doorsfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .doors
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .doorsfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .seats
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .seatsfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .seats
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .seatsfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .seats
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .seatsfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .class
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .classfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .class
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .classfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .class
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .classfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: about
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: aboutfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: about
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: aboutfound.
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: about
+10:33:07 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: aboutfound.
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .type_feature
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .type_featurefound.
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .type_feature
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .type_featurefound.
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .type_feature
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .type_featurefound.
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .price
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .pricefound.
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .price
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .pricefound.
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .price
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .pricefound.
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [type='submit']
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [type='submit']found.
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - PASSED : test method negativeTestFromLetTheCarWorkForNotLoggedInUser
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - =======================================================================
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start test testFormLetTheCarWorkLoggedInUserwitch data:  []
+10:33:08 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.xpath: //a[contains(.,'logOut')]
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.xpath: //a[contains(.,'logOut')]found.
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [href='/login']
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [href='/login']found.
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: email
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: emailfound.
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: email
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: emailfound.
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: email
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: emailfound.
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: password
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: passwordfound.
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: password
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: passwordfound.
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: password
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: passwordfound.
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [type='submit']
+10:33:11 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [type='submit']found.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [href='/car']
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [href='/car']found.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: country
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: countryfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: country
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: countryfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: country
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: countryfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .address
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .addressfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .address
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .addressfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .address
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .addressfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .distance_included
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .distance_includedfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .distance_included
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .distance_includedfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .distance_included
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .distance_includedfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .serial_number
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .serial_numberfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .serial_number
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .serial_numberfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .serial_number
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .serial_numberfound.
+10:33:14 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .brand
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .brandfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .brand
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .brandfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .brand
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .brandfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .model
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .modelfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .model
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .modelfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .model
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .modelfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .year
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .yearfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .year
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .yearfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .year
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .yearfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .engine
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .enginefound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .engine
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .enginefound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .engine
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .enginefound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel_consumption
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuel_consumptionfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel_consumption
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuel_consumptionfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel_consumption
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuel_consumptionfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuelfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuelfound.
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .fuel
+10:33:15 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .fuelfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .transmition
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .transmitionfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .transmition
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .transmitionfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .transmition
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .transmitionfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .wd
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .wdfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .wd
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .wdfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .wd
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .wdfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .horsepower
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .horsepowerfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .horsepower
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .horsepowerfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .horsepower
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .horsepowerfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .torque
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .torquefound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .torque
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .torquefound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .torque
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .torquefound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .doors
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .doorsfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .doors
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .doorsfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .doors
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .doorsfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .seats
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .seatsfound.
+10:33:16 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .seats
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .seatsfound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .seats
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .seatsfound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .class
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .classfound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .class
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .classfound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .class
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .classfound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: about
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: aboutfound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: about
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: aboutfound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.name: about
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.name: aboutfound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .type_feature
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .type_featurefound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .type_feature
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .type_featurefound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .type_feature
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .type_featurefound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .price
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .pricefound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .price
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .pricefound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: .price
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: .pricefound.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - Start searchBy.cssSelector: [type='submit']
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - By.cssSelector: [type='submit']found.
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - PASSED : test method testFormLetTheCarWorkLoggedInUser
+10:33:17 [Test worker] INFO  com.ilcarro.qa.test.TestBase - =======================================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
