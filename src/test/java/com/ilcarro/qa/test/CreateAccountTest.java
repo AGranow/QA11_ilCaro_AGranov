@@ -116,7 +116,7 @@ public class CreateAccountTest extends TestBase {
         app.getUser().fillRegistrationForm(new User()
                 .withFirstName("Max")
                 .withSecondName( "Smitt")
-                .withEmail( "MaxSmitt23@gmail.com")
+                .withEmail( "MaxSmitt25@gmail.com")
                 .withPassword("MaxSmitt1"));
 
         app.getUser().selectPolisyCheckBox();
